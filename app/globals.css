@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Burlesk';
+  src: url('/fonts/Burlesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -25,6 +32,10 @@ body {
 @layer base {
   body {
     font-family: 'Windlass', system-ui, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Burlesk', system-ui, sans-serif;
   }
 }
 
