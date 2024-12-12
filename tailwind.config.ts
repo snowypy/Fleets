@@ -58,6 +58,7 @@ module.exports = {
 		},
 		fontFamily: {
 		  windlass: ['Windlass', 'system-ui', 'sans-serif'],
+		  burlesk: ['Burlesk', 'system-ui', 'sans-serif'],
 		},
 		keyframes: {
 		  "accordion-down": {
