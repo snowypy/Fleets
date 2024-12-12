@@ -1,6 +1,8 @@
 "use client"
 
 import { motion } from 'framer-motion';
+import { FaDiscord, FaYoutube, FaXTwitter, FaTwitch } from 'react-icons/fa6';
+import { FaPatreon } from 'react-icons/fa';
 
 export function Footer() {
   return (
@@ -14,12 +16,24 @@ export function Footer() {
           >
             CONTACT US
           </motion.button>
-          <div className="flex space-x-4">
-            <a href="#" className="text-white/60 hover:text-[#46A5C9]">plce1</a>
-            <a href="#" className="text-white/60 hover:text-[#46A5C9]">plce2r</a>
-            <a href="#" className="text-white/60 hover:text-[#46A5C9]">plce3b</a>
-            <a href="#" className="text-white/60 hover:text-[#46A5C9]">plce4pls</a>
-            <a href="#" className="text-white/60 hover:text-[#46A5C9]">place5</a>
+          <div className="flex space-x-6">
+            <a href="/discord" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
+              <FaDiscord />
+            </a>
+            <a href="https://www.youtube.com/channel/UCq6Sg66fRqBUdVdI0BUzyYA" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
+              <FaYoutube />
+            </a>
+            <a href="https://x.com/Jeff_Cat_NL" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
+              <FaXTwitter />
+            </a>
+            <a href="https://www.twitch.tv/ttvjeffnl" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
+              <FaTwitch />
+            </a>
+            <a href="https://www.patreon.com/seacatsscallywags" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 4.95a7.05 7.05 0 100 14.1 7.05 7.05 0 000-14.1z"/>
+                  </svg>
+            </a>
           </div>
           <p className="text-white/60 text-sm">
             Made with ❤️ by <a href="https://snowyjs.lol" className="text-[#46A5C9] hover:underline">Snowy</a>
