@@ -14,7 +14,7 @@ export function HeroSection() {
         className="absolute inset-0 bg-gradient-to-b from-black via-black/90 to-black"
       />
       
-      <div className="container relative z-10">
+      <div className="container relative z-10 ">
         <GlowingBorder>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
