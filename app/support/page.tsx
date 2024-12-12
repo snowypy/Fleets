@@ -5,19 +5,19 @@ import { motion } from "framer-motion"
 
 const subscriptionTiers = [
   {
-    name: "Bronze",
-    price: "$5/month",
-    benefits: ["Access to exclusive channels", "Bronze supporter badge"],
+    name: "Purring Vrivateer",
+    price: "$6.34/month",
+    benefits: ["Early access to content", "Patron-only voting power", "Patron-only posts and messages"],
   },
   {
-    name: "Gold",
-    price: "$20/month",
-    benefits: ["All Silver benefits", "Monthly game night", "Gold supporter badge"],
+    name: "Fur-midable Admiral",
+    price: "$23.45/month",
+    benefits: ["Discord Role", "Rule with style", "Full library access", "Patron-only posts and messages", "Early access to content", "Patron-only voting power"],
   },
   {
-    name: "Silver",
-    price: "$10/month",
-    benefits: ["All Bronze benefits", "Priority support", "Silver supporter badge"],
+    name: "Clawing Corsair",
+    price: "$8.87/month",
+    benefits: ["Full library access", "Patron-only posts and messages", "Early access to content", "Patron-only voting power"],
   },
 ]
 
@@ -48,14 +48,9 @@ export default function SupportPage() {
               viewport={{ once: true }}
               className={`border border-[#46A5C9]/20 p-6 rounded-lg ${tier.name === "Gold" ? "order-first" : ""}`}
             >
-              <h3 className="text-2xl font-bold text-[#46A5C9] mb-4">
+              <h1 className="text-4xl font-bold text-[#46A5C9] mb-4">
                 {tier.name}
-                {tier.name === "Gold" && (
-                  <span className="ml-2 bg-yellow-500 text-black px-2 py-1 rounded-full text-sm">
-                    Best Value
-                  </span>
-                )}
-              </h3>
+              </h1>
               <p className="text-lg mb-4">{tier.price}</p>
               <ul className="list-disc list-inside text-white/80">
                 {tier.benefits.map((benefit, i) => (
@@ -75,17 +70,18 @@ export default function SupportPage() {
             <GlowingBorder>
 
                 <h3 className="text-3xl font-bold text-[#46A5C9] mb-4">
-                  Purchase Subscriptions on Discord
+                  Purchase Subscriptions on Patreon
                 </h3>
                 <p className="text-lg text-white/80">
-                  Join our Discord server to purchase any of these subscription tiers and enjoy exclusive benefits!
+                  Check out our Patreon to purchase any of these subscription tiers and enjoy exclusive benefits!
                 </p>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="mt-6 bg-[#46A5C9] text-white px-6 py-3 rounded-md font-bold hover:bg-[#3A8CA8] transition-colors"
+                  onClick={() => window.open('https://www.patreon.com/seacatsscallywags', '_blank')}
                 >
-                  Join Discord
+                  Help Us
                 </motion.button>
                 </GlowingBorder>
         </motion.div>
