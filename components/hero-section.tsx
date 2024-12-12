@@ -23,7 +23,7 @@ export function HeroSection() {
         className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/50 z-10"
       />
       
-      <div className="container relative z-20 flex flex-col justify-between min-h-screen py-24">
+      <div className="container relative z-20 flex flex-col justify-between items-center min-h-screen py-24">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -45,19 +45,19 @@ export function HeroSection() {
           </motion.button>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid md:grid-cols-2 gap-8 items-center mb-16 max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.4 }}
-            className="space-y-4"
+            className="space-y-4 col-span-2"
           >
-            <p className="text-white text-lg drop-shadow-md">
+            <p className="text-white text-lg drop-shadow-md text-center">
               Join the Sea Cat Community and experience the best Sea of Thieves community. 
               With hundreds of members, we're proud to be a part of the community
               for the best experience for our members!
             </p>
-            <div className="flex gap-4">
+            <div className="flex gap-4 justify-center">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -74,33 +74,6 @@ export function HeroSection() {
               </motion.button>
             </div>
           </motion.div>
-          
-          <FloatingElement>
-            <div className="relative w-64 h-64 mx-auto">
-              <Image
-                src="/mas.png"
-                alt="Mascot"
-                width={512}
-                height={512}
-                className="rounded-full object-cover w-full h-full"
-              />
-              <motion.div
-                className="absolute inset-0 rounded-full"
-                animate={{
-                  boxShadow: [
-                    "0 0 20px rgba(70, 165, 201, 0.2)",
-                    "0 0 40px rgba(70, 165, 201, 0.4)",
-                    "0 0 20px rgba(70, 165, 201, 0.2)"
-                  ]
-                }}
-                transition={{
-                  duration: 2,
-                  repeat: Infinity,
-                  ease: "easeInOut"
-                }}
-              />
-            </div>
-          </FloatingElement>
         </div>
 
         <motion.div
