@@ -13,7 +13,7 @@ export function HeroSection() {
     <section className="relative min-h-screen overflow-hidden">
       {loading && (
         <div className="absolute inset-0 bg-black/50 blur-sm flex items-center justify-center">
-          <p className="text-white">Aye...</p>
+
         </div>
       )}
 
