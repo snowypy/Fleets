@@ -26,9 +26,9 @@ export default function RulesPage() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl text-[#46A5C9] text-center mb-8 pt-16"
+          className="text-6xl text-[#46A5C9] text-center mb-8 pt-16"
         >
-          RULES + INFO
+          RULES & INFO
         </motion.h2>
 
         <GlowingBorder>

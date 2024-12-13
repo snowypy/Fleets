@@ -34,7 +34,7 @@ export default function SupportPage() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl text-[#46A5C9] text-center mb-8"
+          className="text-6xl text-[#46A5C9] text-center mb-8"
         >
           Support Us
         </motion.h2>
