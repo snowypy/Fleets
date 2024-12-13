@@ -24,25 +24,14 @@ export function SiteHeader() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
-          className="mr-8"
+          className="mr-8 flex items-center"
         >
           <Link href="/" className="text-2xl font-bold text-white">
-            <motion.span
-              animate={{
-                textShadow: [
-                  "0 0 7px #46A5C9",
-                  "0 0 10px #46A5C9",
-                  "0 0 7px #46A5C9"
-                ]
-              }}
-              transition={{
-                duration: 2,
-                repeat: Infinity,
-                ease: "easeInOut"
-              }}
-            >
-              Sea Cats
-            </motion.span>
+            <img 
+              src="/mas.png" 
+              alt="Logo" 
+              className="w-10 h-10 rounded-full mr-2"
+            />
           </Link>
         </motion.div>
         
