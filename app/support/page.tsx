@@ -69,7 +69,7 @@ export default function SupportPage() {
         >
             <GlowingBorder>
 
-                <h3 className="text-3xl font-bold text-[#46A5C9] mb-4">
+                <h3 className="text-4xl font-bold text-[#46A5C9] mb-4">
                   Purchase Subscriptions on Patreon
                 </h3>
                 <p className="text-lg text-white/80">
