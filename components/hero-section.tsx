@@ -4,16 +4,26 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 import { FloatingElement } from "./animations"
 import { ChevronDown } from 'lucide-react'
+import React from 'react'
 
 export function HeroSection() {
+  const [loading, setLoading] = React.useState(true);
+
   return (
     <section className="relative min-h-screen overflow-hidden">
+      {loading && (
+        <div className="absolute inset-0 bg-black/50 blur-sm flex items-center justify-center">
+          <p className="text-white">Aye...</p>
+        </div>
+      )}
+
       <Image
         src="/banner.png"
         alt="Sea Cat Scallywags Background"
         layout="fill"
         objectFit="cover"
         className="absolute inset-0 z-0"
+        onLoadingComplete={() => setLoading(false)}
       />
       
       <motion.div
