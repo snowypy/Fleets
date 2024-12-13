@@ -16,7 +16,7 @@ export function AllianceSection() {
       
       <div className="container relative z-10">
         <SlideIn>
-          <h2 className="text-4xl text-white text-center mb-16">
+          <h2 className="text-6xl text-white text-center mb-16">
             JOIN FOR THE GRIND
           </h2>
         </SlideIn>
@@ -28,7 +28,7 @@ export function AllianceSection() {
             transition={{ delay: 0.2 }}
             className="space-y-4"
           >
-            <h3 className="text-2xl text-[#46A5C9]">
+            <h3 className="text-5xl text-[#46A5C9]">
               BEST SEA OF THIEVES
               <br />
               COMMUNITY
