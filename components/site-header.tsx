@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
+import { useEffect, useState } from "react"
 
 const navItems = [
   "Home",
@@ -12,10 +13,31 @@ const navItems = [
 ]
 
 export function SiteHeader() {
+  const [isVisible, setIsVisible] = useState(true)
+
+  useEffect(() => {
+    let lastScrollY = window.scrollY
+
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY) {
+        setIsVisible(false)
+      } else {
+        setIsVisible(true)
+      }
+      lastScrollY = window.scrollY
+    }
+
+    window.addEventListener("scroll", handleScroll)
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
+
   return (
     <motion.header
       initial={{ y: -100 }}
-      animate={{ y: 0 }}
+      animate={{ y: isVisible ? 0 : -100 }}
       transition={{ duration: 0.5 }}
       className="fixed top-0 z-50 w-full bg-black/80 backdrop-blur-sm border-b border-[#46A5C9]/20"
     >
