@@ -23,14 +23,14 @@ export function SupportSection() {
             </p>
             
             <div className="space-y-4">
-              <h3 className="text-3xl text-[#46A5C9] font-bold">Quick Questions:</h3>
+              <h3 className="text-3xl text-[#46A5C9]">Quick Questions:</h3>
               <p className="text-white/80">
                 For quick questions or general inquiries, you can ask in our Discord server or check out our FAQ page.
               </p>
             </div>
             
             <div className="space-y-4">
-              <h3 className="text-3xl text-[#46A5C9] font-bold">Private Assistance:</h3>
+              <h3 className="text-3xl text-[#46A5C9]">Private Assistance:</h3>
               <p className="text-white/80">
                 If you need direct assistance or have a private matter to discuss, you can reach out to our support team by creating a ticket in our Discord.
               </p>

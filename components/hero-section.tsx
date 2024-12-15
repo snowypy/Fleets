@@ -4,6 +4,7 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 import { FloatingElement } from "./animations"
 import { ChevronDown } from 'lucide-react'
+import Link from 'next/link'
 import React from 'react'
 
 export function HeroSection() {
@@ -68,13 +69,15 @@ export function HeroSection() {
               for the best experience for our members!
             </p>
             <div className="flex gap-4 justify-center">
+            <Link href="/discord">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-[#46A5C9] text-white px-6 py-2 rounded-md font-bold hover:bg-[#3A8CA8] transition-colors shadow-md"
               >
-                DISCORD.SEA.CATS
+                JOIN OUR DISCORD
               </motion.button>
+            </Link>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
