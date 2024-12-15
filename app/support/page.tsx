@@ -48,7 +48,7 @@ export default function SupportPage() {
               viewport={{ once: true }}
               className={`border border-[#46A5C9]/20 p-6 rounded-lg ${tier.name === "Gold" ? "order-first" : ""}`}
             >
-              <h1 className="text-4xl font-bold text-[#46A5C9] mb-4">
+              <h1 className="text-4xl text-[#46A5C9] mb-4">
                 {tier.name}
               </h1>
               <p className="text-lg mb-4">{tier.price}</p>
@@ -69,7 +69,7 @@ export default function SupportPage() {
         >
             <GlowingBorder>
 
-                <h3 className="text-4xl font-bold text-[#46A5C9] mb-4">
+                <h3 className="text-4xl text-[#46A5C9] mb-4">
                   Purchase Subscriptions on Patreon
                 </h3>
                 <p className="text-lg text-white/80">
