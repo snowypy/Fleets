@@ -40,7 +40,7 @@ export function HeroSection() {
           transition={{ delay: 0.2 }}
           className="text-center"
         >
-          <h1 className="text-5xl md:text-8xl font-bold text-white mb-6 drop-shadow-lg">
+          <h1 className="text-5xl md:text-8xl text-white mb-6">
             Sea Cat Scallywags
           </h1>
           <p className="text-white text-xl md:text-2xl max-w-2xl mx-auto mb-8 drop-shadow-md">
