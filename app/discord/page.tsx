@@ -6,7 +6,7 @@ export default function Discord() {
                 Join our Discord server to connect with our community and get started!
             </p>
             <a
-                href="https://discord.gg/wMExJ3vf"
+                href="https://discord.gg/seacatsscallywags"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-2 bg-[#7289DA] text-white rounded-lg hover:bg-[#7289DA]/80"
