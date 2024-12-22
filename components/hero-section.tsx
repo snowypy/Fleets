@@ -45,7 +45,7 @@ export function HeroSection() {
             Sea Cat Scallywags
           </h1>
           <p className="text-white text-xl md:text-2xl max-w-2xl mx-auto mb-8 drop-shadow-md">
-            From the waters of our Servers, and community, Sea Cat Scallywags allows you to have experiences!
+            Jeff is fat in our Servers, and community, Sea Cat Scallywags allows you to have experiences!
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
