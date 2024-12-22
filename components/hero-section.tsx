@@ -78,6 +78,7 @@ export function HeroSection() {
                 JOIN OUR DISCORD
               </motion.button>
             </Link>
+            <Link href="/support">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -85,6 +86,7 @@ export function HeroSection() {
               >
                 SUPPORT US
               </motion.button>
+            </Link>
             </div>
           </motion.div>
         </div>
