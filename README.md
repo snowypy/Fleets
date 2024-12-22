@@ -18,7 +18,29 @@ cd Fleets
 
 ## Contributing
 
-We welcome contributions from the community. If you have ideas, suggestions, or improvements, please open an issue or submit a pull request. Your input helps make Fleets better for everyone.
+When contributing, note that this site is made with modular components.
+
+`Site Header` -> [site-header.tsx](https://github.com/snowypy/Fleets/blob/master/components/site-header.tsx)
+
+`Site Footer` -> [footer.tsx](https://github.com/snowypy/Fleets/blob/master/components/footer.tsx)
+
+**Main Page**
+
+`Hero Area` -> [hero-section.tsx](https://github.com/snowypy/Fleets/blob/master/components/hero-section.tsx)
+
+`Community Area` -> [community-section.tsx](https://github.com/snowypy/Fleets/blob/master/components/faq-section.tsx)
+
+`FAQ Area` -> [faq-section.tsx](https://github.com/snowypy/Fleets/blob/master/components/faq-section.tsx)
+
+**Support Page**
+
+`Support Page` -> [support/page.tsx](https://github.com/snowypy/Fleets/blob/master/app/support/page.tsx)
+
+`Support Box` -> [support-section.tsx](https://github.com/snowypy/Fleets/blob/master/components/support-section.tsx)
+
+**Staff Application Page**
+
+`Apply Page` -> [apply/page.tsx](https://github.com/snowypy/Fleets/blob/master/app/apply/page.tsx)
 
 ## Authors
 
