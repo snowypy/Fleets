@@ -20,23 +20,23 @@ cd Fleets
 
 When contributing, note that this site is made with modular components.
 
-`Site Header` -> [site-header.tsx](https://github.com/snowypy/Fleets/blob/master/components/site-header.tsx)
+`Site Header` -> [components/site-header.tsx](https://github.com/snowypy/Fleets/blob/master/components/site-header.tsx)
 
-`Site Footer` -> [footer.tsx](https://github.com/snowypy/Fleets/blob/master/components/footer.tsx)
+`Site Footer` -> [components/footer.tsx](https://github.com/snowypy/Fleets/blob/master/components/footer.tsx)
 
 **Main Page**
 
-`Hero Area` -> [hero-section.tsx](https://github.com/snowypy/Fleets/blob/master/components/hero-section.tsx)
+`Hero Area` -> [components/hero-section.tsx](https://github.com/snowypy/Fleets/blob/master/components/hero-section.tsx)
 
-`Community Area` -> [community-section.tsx](https://github.com/snowypy/Fleets/blob/master/components/faq-section.tsx)
+`Community Area` -> [components/community-section.tsx](https://github.com/snowypy/Fleets/blob/master/components/faq-section.tsx)
 
-`FAQ Area` -> [faq-section.tsx](https://github.com/snowypy/Fleets/blob/master/components/faq-section.tsx)
+`FAQ Area` -> [components/faq-section.tsx](https://github.com/snowypy/Fleets/blob/master/components/faq-section.tsx)
 
 **Support Page**
 
 `Support Page` -> [support/page.tsx](https://github.com/snowypy/Fleets/blob/master/app/support/page.tsx)
 
-`Support Box` -> [support-section.tsx](https://github.com/snowypy/Fleets/blob/master/components/support-section.tsx)
+`Support Box` -> [components/support-section.tsx](https://github.com/snowypy/Fleets/blob/master/components/support-section.tsx)
 
 **Staff Application Page**
 
