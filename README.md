@@ -46,6 +46,7 @@ When contributing, note that this site is made with modular components.
 
 - **snowypy** - Creator and Maintainer
 - **nathan** - Contributor 
+- **darkthejed1** - Contributor
 
 ## License
 
