@@ -45,7 +45,7 @@ export function HeroSection() {
             Sea Cat Scallywags
           </h1>
           <p className="text-white text-xl md:text-2xl max-w-2xl mx-auto mb-8 drop-shadow-md">
-            Jeff is fat in our Servers, and community, Sea Cat Scallywags allows you to have experiences!
+          Join our purr-fect Servers and community, where Sea Cat Scallywags lets you claw your way to unforgettable experiences!
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
@@ -64,9 +64,7 @@ export function HeroSection() {
             className="space-y-4 col-span-2"
           >
             <p className="text-white text-lg drop-shadow-md text-center">
-              Join the Sea Cat Community and experience the best Sea of Thieves community. 
-              With hundreds of members, we're proud to be a part of the community
-              for the best experience for our members!
+            Join the Sea Cat Community and experience the best Sea of Thieves community. With paw-some members by your side, we're fur-ever proud to be part of the community for the best experience for our members! We'll always be purr-fectly transparent about where your donations go!
             </p>
             <div className="flex gap-4 justify-center">
             <Link href="/discord">

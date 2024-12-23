@@ -26,11 +26,8 @@ export function Footer() {
             <a href="https://www.youtube.com/channel/UCq6Sg66fRqBUdVdI0BUzyYA" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
               <FaYoutube />
             </a>
-            <a href="https://x.com/Jeff_Cat_NL" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
+            <a href="https://x.com/SeaCats_X" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
               <FaXTwitter />
-            </a>
-            <a href="https://www.twitch.tv/ttvjeffnl" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
-              <FaTwitch />
             </a>
             <a href="https://www.patreon.com/seacatsscallywags" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
             <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">

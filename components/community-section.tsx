@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { SlideIn } from "./animations"
+import Link from "next/link"
 
 export function AllianceSection() {
   return (
@@ -36,13 +37,15 @@ export function AllianceSection() {
             <p className="text-white/80">
               With hundreds of members, Sea Cat Scallywags is proud to be a Sea of Thieves Alliance community!
             </p>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-[#BC090B] text-white px-6 py-2 rounded-md font-bold hover:bg-[#A00809] transition-colors"
-            >
-              LEARN MORE
-            </motion.button>
+            <Link href="rules">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-[#BC090B] text-white px-6 py-2 rounded-md font-bold hover:bg-[#A00809] transition-colors"
+              >
+                LEARN MORE
+              </motion.button>
+            </Link>
           </motion.div>
           
           <motion.div

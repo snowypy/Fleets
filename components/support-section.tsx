@@ -19,7 +19,7 @@ export function SupportSection() {
         <GlowingBorder>
           <div className="space-y-6">
             <p className="text-white/80">
-              If you have any questions or need assistance, we're herre to help!
+              If you have any questions or need assistance, we're here to help!
             </p>
             
             <div className="space-y-4">

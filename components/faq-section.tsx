@@ -10,12 +10,12 @@ import {
 
 const faqs = [
   {
-    question: "How do I join an alliance server?",
-    answer: "Instructions for joining.."
+    question: "How do I join the alliance server?",
+    answer: "Join our Discord and one of our paw-some staff or regular members will paw-sitively guide you through the process!"
   },
   {
-    question: "Do I need to pay for supporter to play on the alliance server?",
-    answer: "Information about supporter reqs.."
+    question: "Do I need to pay for support or to play on the alliance server?",
+    answer: "You'll never have to paw out a dime! Donations are just for extra cat-tastic content and purr-ks!"
   },
 ]
 
