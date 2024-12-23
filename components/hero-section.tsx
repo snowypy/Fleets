@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { motion } from "framer-motion"
+import { motion, useScroll, useTransform } from "framer-motion"
 import { FloatingElement } from "./animations"
 import { ChevronDown } from 'lucide-react'
 import Link from 'next/link'
@@ -9,12 +9,21 @@ import React from 'react'
 
 export function HeroSection() {
   const [loading, setLoading] = React.useState(true);
-
+  const { scrollY } = useScroll()
+  
+  const scale = useTransform(scrollY, [0, 1000], [1, 0.85])
+  const opacity = useTransform(scrollY, [0, 1000], [1, 0.85])
+  
   return (
-    <section className="relative min-h-screen overflow-hidden">
+    <motion.section 
+      className="relative min-h-screen overflow-hidden"
+      style={{
+        scale,
+        opacity
+      }}
+    >
       {loading && (
         <div className="absolute inset-0 bg-black/50 blur-sm flex items-center justify-center">
-
         </div>
       )}
 
@@ -103,7 +112,7 @@ export function HeroSection() {
           <ChevronDown className="text-white w-8 h-8" />
         </motion.div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 
