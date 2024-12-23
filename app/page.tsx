@@ -13,7 +13,6 @@ export default function Page() {
       <main>
         <HeroSection />
         <AllianceSection />
-        <SupportSection />
         <FaqSection />
       </main>
   )
