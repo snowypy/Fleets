@@ -24,9 +24,6 @@ export function Footer() {
             <a href="/discord" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
               <FaDiscord />
             </a>
-            <a href="https://www.youtube.com/channel/UCq6Sg66fRqBUdVdI0BUzyYA" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
-              <FaYoutube />
-            </a>
             <a href="https://x.com/SeaCats_X" className="text-white/60 hover:text-[#46A5C9] text-2xl transition-colors">
               <FaXTwitter />
             </a>
