@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { FaDiscord, FaYoutube, FaXTwitter, FaTwitch } from 'react-icons/fa6';
 import { FaPatreon } from 'react-icons/fa';
 import Link from 'next/link';
+import { Typewriter } from 'react-simple-typewriter';
 
 export function Footer() {
   return (
@@ -35,9 +36,10 @@ export function Footer() {
                   </svg>
             </a>
           </div>
-          <p className="text-white/60 text-sm">
-            Made with ❤️ by <a href="https://snowyjs.lol" className="text-[#46A5C9] hover:underline">Snowy</a>
-          </p>
+            <p className="text-white/60 text-sm">
+            Made with ❤️ by <a href="https://snowyjs.lol" className="text-[#46A5C9] hover:underline">Snowy
+            </a>
+            </p>
         </div>
       </div>
     </footer>
