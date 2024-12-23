@@ -7,6 +7,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import { Typewriter } from "react-simple-typewriter"
 
 const faqs = [
   {
@@ -27,7 +28,7 @@ export function FaqSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-5xl text-[#46A5C9] text-center mb-8"
+          className="text-5xl text-white text-center mb-8"
         >
           FREQUENTLY ASKED QUESTIONS
         </motion.h2>
@@ -48,12 +49,20 @@ export function FaqSection() {
               viewport={{ once: true }}
             >
               <AccordionItem value={`item-${index}`} className="border-[#46A5C9]/20">
-                <AccordionTrigger className="text-2xl text-white hover:text-[#46A5C9]">
+                <AccordionTrigger className="text-2xl text-[#46A5C9]">
                   {faq.question}
                 </AccordionTrigger>
                 <AnimatePresence>
-                  <AccordionContent className="text-white/80">
-                    {faq.answer}
+                  <AccordionContent className="text-white text-1xl">
+                    <Typewriter
+                      words={[faq.answer]}
+                      loop={1}
+                      cursor
+                      cursorStyle='|'
+                      typeSpeed={30}
+                      deleteSpeed={50}
+                      delaySpeed={1000}
+                    />
                   </AccordionContent>
                 </AnimatePresence>
               </AccordionItem>
